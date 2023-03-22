@@ -11,10 +11,11 @@ from RPG_index import Lobo
 
 ##### FIM DO LOAD DO PROGRAMA #####
 
-=================================================LISTA DE MÉTODOS=================================================
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1 - SERES VIVOS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+LISTA DE MÉTODOS
 
+
+1 - SERES VIVOS 
 1.1 MOSTRAR SERES VIVOS
 Malvo.mostrar_seres_vivos()   
 -->   # Exibe todos os seres vivos, independente da classe,
@@ -34,8 +35,7 @@ Victor.mostrar_atributos()
       # Qualquer ser vivo pode chamar esse método.
       
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 2 - PERSONAGENS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
+2 - PERSONAGENS 
 2.1 ADICIONAR PERSONAGEM
 Victor = Personagem(name="Víctor", health_points=40, attack_points=20) 
 -->   # Adiciona um ser vivo à classe "PERSONAGEM" 
@@ -57,8 +57,7 @@ Victor.excluir_personagem(deleted="Malvo")
         esse método.
 
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 3 - MONSTROS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
+3 - MONSTROS
 3.1 ADICIONAR MONSTRO
 Garu = Lobo(name="Garu", health_points=20, attack_points=15, power_points=7) 
 -->   # Adiciona um ser vivo à classe "MONSTRO", com a espécie "LOBO".
