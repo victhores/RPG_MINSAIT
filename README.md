@@ -19,7 +19,7 @@ LISTA DE MÉTODOS
 1.1 MOSTRAR SERES VIVOS
 Malvo.mostrar_seres_vivos()   
 -->   # Exibe todos os seres vivos, independente da classe, presentes no jogo.
-# Qualquer ser vivo pode chamar esse método.
+-->   # Qualquer ser vivo pode chamar esse método.
 
 1.1 MOSTRAR SERES VIVOS
 Ninim.mostrar_seres_vivos()   
